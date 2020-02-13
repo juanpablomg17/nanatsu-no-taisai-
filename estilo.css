@@ -1,0 +1,178 @@
+body{
+
+
+    margin-top: auto 100px;
+}
+
+.wrapper{
+
+    max-width: 2000px;
+}
+
+nav ul {
+
+    list-style: none;
+}
+nav ul li {
+
+    font-size: 30px;
+}
+#titulo{
+
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    padding-top: 10px;
+    
+
+
+  
+}
+
+
+.cabecera{
+
+    background-color: rgb(48, 47, 47);
+    height: 70px;
+    width: auto 200px;
+}
+
+
+
+#imagen_meliodas {
+
+    width: 300px;
+    height: 600px;
+    
+}
+
+#imgane_diane{
+
+    width: 300px;
+    height: 600px;
+    float: left;
+    
+}
+
+.parrafo {
+text-align: left;
+text-align: justify;
+
+}
+
+.one-third{
+
+    width: 31.5%;
+    float: left;
+    padding-inline-start: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.one-third-padding{
+
+
+    width: 29%;
+    float: left;
+    margin: 2%;
+  
+  }
+
+#arma_meliodas{
+
+    width: 250px;
+    height: 250px;
+}
+
+#parrafo2{
+
+    margin-top: 50px;
+}
+
+nav ul ul ul {
+display: none;
+    
+}
+
+nav > ul {
+
+    display: table;
+    width: 100%;
+}
+
+nav > ul > li {
+    float: left;
+
+
+}
+nav a{
+
+    color: aliceblue;
+    display: block;
+    padding: 0 2.5em;
+    text-decoration: none;
+}
+nav{
+
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 3000px;
+    height: 60px;
+   
+    
+}
+
+
+.meliodas{
+
+    margin-top: 150px;
+}
+
+nav ul li a:hover{
+    color: aqua;
+    text-decoration: none;
+    transition: .5s;
+    
+  
+  
+  }
+
+  nav li{
+
+    line-height: 3rem;
+    position: relative;
+  }
+
+  nav li ul {
+
+    position: absolute;
+    display: none;
+
+  }
+
+  nav li:hover ul {
+      display: block;
+ 
+
+  }
+  nav li li {
+
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 15px;
+    border-bottom-left-radius: 25%;
+    transition-duration: 3s;
+    
+    
+
+    
+
+    
+  }
+
+  nav > ul > li > ul {
+
+top: 200%;
+  }
